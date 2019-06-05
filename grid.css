@@ -1,6 +1,7 @@
 header {
   font-size: 70px;
-  background-color: rgb(219,232,249);
+  background-color: rgb(51,79,105);
+  color: rgb(242, 242, 242);
 }
 
 header > div {
@@ -26,14 +27,15 @@ body,html {
 .hsc { 
   grid-column: 1 / end;
   grid-row: 1 / row-start 1;
-  border-radius: 30px;
-  background-color: rgb(165, 196, 236);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
   margin: 20px;
   
   display: grid;
   grid-template-columns: 400px [column-start] 1fr [column-start] 80px [share-column];
   grid-template-rows: 100px [row-start] 200px [row-start] 70px [row-start];
   grid-gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .carousel1 { 
@@ -46,8 +48,9 @@ body,html {
 }
 
 .carousel1, .carousel2 {
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     display: grid;
     grid-template-columns: repeat(8, 1fr [column-start]);
