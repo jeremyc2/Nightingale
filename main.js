@@ -22,3 +22,11 @@ function mouseup(element, filename, altFilename) {
         element.src = altFilename;
     }
 }
+
+function showModal() {
+    $('#myModal').modal('show');
+}
+
+function hideModal() {
+    $('#myModal').modal('hide');
+}
