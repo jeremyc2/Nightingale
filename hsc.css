@@ -58,9 +58,12 @@
     border-width: 2px;
   }
 
-  .image-share {
+  .hsc > .image-share {
     grid-column: column-start 2 / share-column;
     grid-row: 1 / row-start 1;
+  }
+
+  .image-share {
     z-index: 10;
   }
 

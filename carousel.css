@@ -24,7 +24,17 @@
     transform: translateY(25%);
 }
 
+.album-c, .arrow-c {
+    grid-row: 2 / end;
+}
+
 .carousel-title {
     grid-row: 1 / span 1;
-    grid-column: 1 / end;
+    grid-column: 2 / span 6;
 }
+
+.carousel1 > .image-share, .carousel2 > .image-share {
+    grid-column: 8 / end;
+    grid-row: 1 / span 1;
+  }
+
