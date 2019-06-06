@@ -7,15 +7,20 @@
     grid-template-columns: 1fr [column-start];
     grid-auto-flow: column;
     grid-gap: 10px;
-    height: 500px;
+    height: 650px;
 }
 
 .modal-body-row {
     grid-column: 1 / end;
 
     display: grid;
-    grid-template-columns: 1fr [checkbox] 1fr [profile-pic] 1fr [name];
+    grid-template-columns: 70px [checkbox] 70px [profile-pic] 1fr [name];
     grid-gap: 10px;
+}
+
+.modal-body-row > div > img {
+    height: 70px;
+    width: 70px;
 }
 
 .modal-footer {
