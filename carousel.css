@@ -1,8 +1,30 @@
-.album-c > img{
-    width:80px;
+.album-c {
+    display: grid;
+    grid-template-rows: 80px [art] 1fr [title] 1fr [author] 1fr [price];
+    grid-template-columns: 1fr [column-start];
+    grid-auto-flow: column;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-c > div {
+    width: 80px;
+    font-size: 15px;
+}
+
+.album-c > img {
+    width: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .arrow-c > img {
-    width:100px;
+    width: 100px;
     transform: translateY(25%);
+}
+
+.carousel-title {
+    grid-row: 1 / span 1;
+    grid-column: 1 / end;
 }

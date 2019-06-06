@@ -61,6 +61,10 @@ img {
   vertical-align: middle;
 }
 
+a {
+  font-size: 12px;
+}
+
 .carousel1 { 
   grid-column: 1 / end;
   grid-row: row-start 1 / row-start 2;
@@ -77,15 +81,16 @@ img {
 
     display: grid;
     grid-template-columns: repeat(8, 1fr [column-start]);
-    grid-template-rows: 1fr  [row-start];
+    grid-template-rows: 35px [row-start] 1fr [row-start];
     grid-gap: 10px;
     justify-items: center;
+    grid-auto-flow: row;
 }
 
 .grid-container-main {
   display: grid;
   grid-template-columns: 1fr [col-start];
-  grid-template-rows: 1fr [row-start] repeat(2, 200px [row-start]);
+  grid-template-rows: 1fr [row-start] repeat(2, 240px [row-start]);
   grid-gap: 10px;
   background-color: rgb(242, 242, 242);
   width: 100%;
