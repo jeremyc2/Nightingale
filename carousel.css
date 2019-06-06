@@ -1,26 +1,50 @@
 .album-c {
     display: grid;
-    grid-template-rows: 80px [art] 1fr [title] 1fr [author] 1fr [price];
+    grid-template-rows: 180px [art] 21.66px [title] 21.66px [author] 21.66px [price];
     grid-template-columns: 1fr [column-start];
     grid-auto-flow: column;
     background-color: rgb(229, 229, 229);
     border-radius: 10px;
 }
 
+.carousel1, .carousel2 {
+    display: grid;
+    grid-template-columns: 10px [column-start] 1200px [column-start] 10px [column-start];
+    grid-template-rows: 1fr [row-start];
+    justify-items: center;
+    grid-gap: 10px;
+}
+
+.shaddow-box-c {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr [column-start]);
+    grid-template-rows: 35px [row-start] 1fr [row-start];
+    grid-gap: 20px;
+    justify-items: center;
+    grid-auto-flow: row;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / end;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .album-c > div {
-    width: 80px;
+    width: 180px;
     font-size: 15px;
 }
 
 .album-c > img {
-    width: 80px;
+    width: 180px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .arrow-c > img {
     width: 100px;
-    transform: translateY(25%);
+    transform: translateY(-75%);
 }
 
 .album-c, .arrow-c {
@@ -29,12 +53,12 @@
 
 .carousel-title {
     grid-row: 1 / span 1;
-    grid-column: 2 / span 6;
+    grid-column: 1 / span 6;
     overflow: hidden;
 }
 
-.carousel1 > .image-share, .carousel2 > .image-share {
-    grid-column: 8 / end;
+.image-share {
+    grid-column: 7 / -2;
     grid-row: 1 / span 1;
   }
 

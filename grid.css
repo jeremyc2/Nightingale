@@ -75,10 +75,6 @@ a {
 }
 
 .carousel1, .carousel2 {
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     display: grid;
     grid-template-columns: repeat(8, 1fr [column-start]);
     grid-template-rows: 35px [row-start] 1fr [row-start];
@@ -90,7 +86,7 @@ a {
 .grid-container-main {
   display: grid;
   grid-template-columns: 1fr [col-start];
-  grid-template-rows: 1fr [row-start] repeat(2, 250px [row-start]);
+  grid-template-rows: 1fr [row-start] repeat(2, 400px [row-start]);
   grid-gap: 10px;
   background-color: rgb(242, 242, 242);
   width: 100%;
