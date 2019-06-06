@@ -57,6 +57,10 @@ body,html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+img {
+  vertical-align: middle;
+}
+
 .carousel1 { 
   grid-column: 1 / end;
   grid-row: row-start 1 / row-start 2;
@@ -75,12 +79,13 @@ body,html {
     grid-template-columns: repeat(8, 1fr [column-start]);
     grid-template-rows: 1fr  [row-start];
     grid-gap: 10px;
+    justify-items: center;
 }
 
 .grid-container-main {
   display: grid;
   grid-template-columns: 1fr [col-start];
-  grid-template-rows: 1fr [row-start] repeat(2, 150px [row-start]);
+  grid-template-rows: 1fr [row-start] repeat(2, 200px [row-start]);
   grid-gap: 10px;
   background-color: rgb(242, 242, 242);
   width: 100%;
