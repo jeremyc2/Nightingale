@@ -90,7 +90,7 @@ a {
 .grid-container-main {
   display: grid;
   grid-template-columns: 1fr [col-start];
-  grid-template-rows: 1fr [row-start] repeat(2, 240px [row-start]);
+  grid-template-rows: 1fr [row-start] repeat(2, 250px [row-start]);
   grid-gap: 10px;
   background-color: rgb(242, 242, 242);
   width: 100%;
