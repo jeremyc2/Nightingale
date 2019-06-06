@@ -3,9 +3,15 @@
 }
 
 .modal-body {
-    
+    display: grid;
+    grid-template-columns: 1fr [checkbox] 1fr [profile-pic] 1fr [name];
+    grid-auto-flow: column;
+    grid-gap: 10px;
 }
 
 .modal-footer {
-
+    display: grid;
+    /* grid-template-columns: ;
+    grid-template-rows: ; */
+    grid-gap: 10px;
 }
