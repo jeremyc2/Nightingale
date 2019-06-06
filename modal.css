@@ -4,14 +4,35 @@
 
 .modal-body {
     display: grid;
-    grid-template-columns: 1fr [checkbox] 1fr [profile-pic] 1fr [name];
+    grid-template-columns: 1fr [column-start];
     grid-auto-flow: column;
+    grid-gap: 10px;
+    height: 500px;
+}
+
+.modal-body-row {
+    grid-column: 1 / end;
+
+    display: grid;
+    grid-template-columns: 1fr [checkbox] 1fr [profile-pic] 1fr [name];
     grid-gap: 10px;
 }
 
 .modal-footer {
     display: grid;
-    /* grid-template-columns: ;
-    grid-template-rows: ; */
+    grid-template-columns: 1fr [column-start] 1fr [column-start];
+    grid-template-rows: 1fr [row-start];
     grid-gap: 10px;
+
+    height: 100px;
+}
+
+.modal-send {
+    grid-column: 1 / 2;
+    grid-row: 1 / end;
+}
+
+.modal-cancel {
+    grid-column: 2 / end;
+    grid-row: 1 / end;
 }
