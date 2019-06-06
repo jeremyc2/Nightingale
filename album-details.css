@@ -26,12 +26,32 @@
 .grid-container-album-details > .album {
     grid-column: column-start 1 / column-start 2;
     grid-row: title / album;
+
+    display: grid;
+    grid-template-rows: 50px [start-row] 1fr;
+    grid-template-columns: 250px [column-start] 50px [column-start];
 }
 
-.album > img {
+.grid-container-album-details > .album > .image-share {
+    z-index: 1000;
+    float: right;
+    grid-row: 1 / span 1;
+    grid-column: 2 / end;
+}
+
+.album > .album-art > img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
+}
+
+.album > .album-art {
+    grid-row: 1 / end;
+    grid-column: 1 / end;
+}
+
+.image-share > img:active {
+    transform: scale(1.1);
 }
 
 .grid-container-album-details > .song-list-label {
