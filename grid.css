@@ -42,11 +42,18 @@ body,html {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   margin: 20px;
+  height: 1000px;
 
   display: grid;
-  grid-template-columns: 400px [column-start] 1fr [column-start] 80px [share-column];
-  grid-template-rows: 100px [row-start] 200px [row-start] 70px [row-start];
+  grid-template-columns: repeat(3, 1fr [column-start]);
+  grid-template-rows: [row-start] 
+                      70px [title] 
+                      300px [album] 
+                      40px [song-list-label] 
+                      repeat(9, 50px [song-row]);
   grid-gap: 10px;
+  grid-auto-flow: column;
+  align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

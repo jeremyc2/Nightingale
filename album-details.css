@@ -1,0 +1,59 @@
+.grid-container-album-details > div {
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.grid-container-album-details > .back {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.grid-container-album-details > .back > img {
+    float: left;
+}
+
+.grid-container-album-details > .title {
+    grid-column: 1 / end;
+    grid-row: 1 / title;
+    font-size: 30px;
+}
+
+.grid-container-album-details > .album {
+    grid-column: column-start 1 / column-start 2;
+    grid-row: title / album;
+}
+
+.album > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.grid-container-album-details > .song-list-label {
+    grid-column: 1 / end;
+    grid-row: album / song-list-label;
+    font-size: 20px;
+} 
+
+.grid-container-album-details > .song {
+    grid-column: 1 / end;
+
+    display: grid;
+    grid-template-columns: 1fr [index] 
+                           1fr [title] 
+                           1fr [time] 
+                           1fr [rating]
+                           1fr [price]
+                           1fr [cart];
+    grid-template-rows: 1fr [row-start];
+    grid-gap: 10px;
+    grid-auto-flow: row;
+    align-items: center;
+}
+
+.song > div > img {
+    vertical-align: middle;
+}
