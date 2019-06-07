@@ -412,10 +412,20 @@
         </div>
         <div class="modal-footer">
             <div class="modal-send">
-              <img src="icons/send/send.png" onclick="hideModal();" alt="">
+              <img src="icons/send/send.png" onclick="hideModal();" 
+              onmouseover="mouseover(this,'icons/send/send-hover.svg')"
+              onmouseout="mouseout(this,'icons/send/send.svg')"
+              onmousedown="mousedown(this,'icons/send/send-clicked.svg')"
+              onmouseup="mouseup(this,'icons/send/send.svg','icons/send/send-hover.svg')"
+              alt="">
             </div>
             <div class="modal-cancel">
-              <img src="icons/cancel/cancel.png" onclick="hideModal();" alt="">
+              <img src="icons/cancel/cancel.png" onclick="hideModal();" 
+              onmouseover="mouseover(this,'icons/cancel/cancel-hover.svg')"
+              onmouseout="mouseout(this,'icons/cancel/cancel.svg')"
+              onmousedown="mousedown(this,'icons/cancel/cancel-clicked.svg')"
+              onmouseup="mouseup(this,'icons/cancel/cancel.svg','icons/cancel/cancel-hover.svg')"
+              alt="">
             </div>
         </div>
         </div>
