@@ -23,6 +23,16 @@ function mouseup(element, filename, altFilename) {
     }
 }
 
+function alternate(element, fileOne, fileTwo) {
+    let source = element.src.slice(element.src.indexOf("icons/") - element.src.length);
+    if (source == fileOne) {
+        element.src = fileTwo;
+    }
+    else {
+        element.src = fileOne;
+    }
+}
+
 function showModal() {
     $('#myModal').modal('show');
 }
