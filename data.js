@@ -6,7 +6,7 @@ var justinRamsey = {
             title: 	"Colgando en tus manos",
             time: "3:20",
             artist: "Carlos Buate",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -15,7 +15,7 @@ var justinRamsey = {
             title: 	"Corazon Profundo",
             time: "3:00",
             artist: "Carlos Vives",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -24,7 +24,7 @@ var justinRamsey = {
             title: 	"I Love You More Than Tacos",
             time: "3:45",
             artist: "Carne Cruda",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -33,7 +33,7 @@ var justinRamsey = {
             title: 	"Filosofia Bachata y Zapatos de Goma",
             time: "4:03",
             artist: "Charly Garcia",
-            rating: 3,
+            rating: "★★★",
             price: "$1.29"
         },
         {
@@ -42,7 +42,7 @@ var justinRamsey = {
             title: 	"En Todo Estare",
             time: "3:27",
             artist: "Chayanne",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         },
         {
@@ -51,7 +51,7 @@ var justinRamsey = {
             title: 	"Mi Niña Bonita",
             time: "3:29",
             artist: "Chino Y Nacho",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         }
     ]
@@ -64,7 +64,7 @@ var spanishPop = {
             title: 	"Rompiendo Fronteras",
             time: "3:05",
             artist: "Alejandro Fernandez",
-            rating: 3,
+            rating: "★★★",
             price: "$1.29"
         },
         {
@@ -73,7 +73,7 @@ var spanishPop = {
             title: 	"El Tren de los Momentos",
             time: "3:11",
             artist: "Alejandro Sanz",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         },
         {
@@ -82,7 +82,7 @@ var spanishPop = {
             title: 	"Mil Ciudades",
             time: "3:17",
             artist: "Andres Cepeda",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         },
         {
@@ -91,7 +91,7 @@ var spanishPop = {
             title: 	"Tus Ojos Mis Ojos",
             time: "3:59",
             artist: "Axel",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -100,7 +100,7 @@ var spanishPop = {
             title: 	"Mi Primer Millón",
             time: "3:33",
             artist: "Bacilos",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -109,7 +109,7 @@ var spanishPop = {
             title: 	"Todo Cambió",
             time: "3:24",
             artist: "Camila",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         }
     ]
@@ -122,7 +122,7 @@ var princeRoyceTopSongs = {
             title: 	"No Te Olvides",
             time: "3:51",
             artist: "Prince Royce",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -131,7 +131,7 @@ var princeRoyceTopSongs = {
             title: 	"Culpa al Corazón",
             time: "3:21",
             artist: "Prince Royce",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         },
         {
@@ -140,7 +140,7 @@ var princeRoyceTopSongs = {
             title: 	"Dilema",
             time: "3:11",
             artist: "Prince Royce",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         },
         {
@@ -149,7 +149,7 @@ var princeRoyceTopSongs = {
             title: 	"La Carretera",
             time: "3:29",
             artist: "Prince Royce",
-            rating: 3,
+            rating: "★★★",
             price: "$1.29"
         },
         {
@@ -158,7 +158,7 @@ var princeRoyceTopSongs = {
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
             artist: "Prince Royce",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -167,7 +167,7 @@ var princeRoyceTopSongs = {
             title: 	"Deja vu",
             time: "3:44",
             artist: "Prince Royce",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -176,7 +176,7 @@ var princeRoyceTopSongs = {
             title: 	"Asalto",
             time: "3:53",
             artist: "Prince Royce",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         },
         {
@@ -185,7 +185,7 @@ var princeRoyceTopSongs = {
             title: 	"Te Necesito",
             time: "3:37",
             artist: "Prince Royce",
-            rating: 4,
+            rating: "★★★★",
             price: "$1.29"
         },
         {
@@ -194,7 +194,7 @@ var princeRoyceTopSongs = {
             title: 	"Amor Prohibido",
             time: "3:40",
             artist: "Prince Royce",
-            rating: 5,
+            rating: "★★★★★",
             price: "$1.29"
         }
     ]

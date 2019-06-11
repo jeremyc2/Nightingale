@@ -12,7 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <script src="data.js"></script>
+  <script charset="utf-8" src="data.js"></script>
   <script src="df album-details.js"></script>
 
   <title>Album Details</title>
@@ -24,7 +24,7 @@
      Nightingale
   </div>
 </header>
-<body>
+<body onload="loadSongs()">
     <div class="grid-container-album-details">
         <div class="back">
             <img src="icons/back/back arrow.svg" onclick="location.href = 'index.html';" 
@@ -53,47 +53,16 @@
         </div>
         <div class="song">
             <div>
-                Index
+                
             </div>
             <div>
-                Title
+                Songs
             </div>
             <div>
-                Author
+                Artist
             </div>
             <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
+                Length
             </div>
             <div>
                 Rating
@@ -102,235 +71,6 @@
                 Price
             </div>
             <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
-            </div>
-        </div>
-        <div class="song">
-            <div>
-                Index
-            </div>
-            <div>
-                Title
-            </div>
-            <div>
-                Time
-            </div>
-            <div>
-                Rating
-            </div>
-            <div>
-                Price
-            </div>
-            <div>
-                <img class="shopping-green" src='icons/shopping-green/shopping-green.svg' 
-                onmouseover="mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')"
-                onmouseout="mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')"
-                onmousedown="mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')"
-                onmouseup="if (this.className == 'shopping-green') 
-                                this.className = 'shopping-orange'; 
-                            else 
-                                this.className = 'shopping-green';
-                            mouseup(this,
-                                'icons/' + this.class + '/' + this.class + '.svg',
-                                'icons/' + this.class + '/' + this.class + ' hover.svg')"
-                alt="">
             </div>
         </div>
     </div>
