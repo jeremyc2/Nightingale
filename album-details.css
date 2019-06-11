@@ -66,6 +66,7 @@
     display: grid;
     grid-template-columns: 1fr [index] 
                            1fr [title] 
+                           1fr [artist]
                            1fr [time] 
                            1fr [rating]
                            1fr [price]
