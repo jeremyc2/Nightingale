@@ -10,7 +10,6 @@
 .carousel1, .carousel2 {
     display: grid;
     grid-template-columns: 10px [column-start] 1200px [column-start] 10px [column-start];
-    grid-template-rows: 1fr [row-start];
     justify-items: center;
     grid-gap: 10px;
 }
@@ -44,11 +43,15 @@
 
 .arrow-c > img {
     width: 100px;
-    transform: translateY(-75%);
 }
 
 .album-c, .arrow-c {
     grid-row: 2 / end;
+    align-self: center;
+}
+
+.arrow-c {
+    z-index: 100;
 }
 
 .carousel-title {
