@@ -53,28 +53,30 @@ function loadCarousel(index, playlist) {
 
         var songNode = document.createElement("div");
         songNode.className = "album-c";
+        var title = playlist.songs[i].title;
+        songNode.title = title;
         songNode.onclick = function() {
-            location.href = 'album-details.html?album=' + playlist.songs[i].title;
+            location.href = 'album-details.html?album=' + this.title;
         }
         
-        var albumImage = document.createElement("img");
-        albumImage.src = playlist.songs[i].source;
-        songNode.appendChild(albumImage);
+        var albumImageNode = document.createElement("img");
+        albumImageNode.src = playlist.songs[i].source;
+        songNode.appendChild(albumImageNode);
 
-        var title = document.createElement("div");
-        textNode = document.createTextNode(playlist.songs[i].title);
-        title.appendChild(textNode);
-        songNode.appendChild(title);
+        var titleNode = document.createElement("div");
+        textNode = document.createTextNode(title);
+        titleNode.appendChild(textNode);
+        songNode.appendChild(titleNode);
 
-        var artist = document.createElement("div");
+        var artistNode = document.createElement("div");
         textNode = document.createTextNode(playlist.songs[i].artist);
-        artist.appendChild(textNode);
-        songNode.appendChild(artist);
+        artistNode.appendChild(textNode);
+        songNode.appendChild(artistNode);
 
-        var price = document.createElement("div");
+        var priceNode = document.createElement("div");
         textNode = document.createTextNode(playlist.songs[i].price);
-        price.appendChild(textNode);
-        songNode.appendChild(price);
+        priceNode.appendChild(textNode);
+        songNode.appendChild(priceNode);
 
         songDiv.appendChild(songNode);
 
