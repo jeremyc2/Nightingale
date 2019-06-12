@@ -221,88 +221,88 @@ var princeRoyceTopSongs = {
 }
 
 var colgandoEnTusManos = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Carlos Buate Deluxe",
+    albumArt: "icons/images/carlosbuate.jpg",
+    label: "The Best of Carlos Buate",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosbuate.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Carlos Buate",
             rating: "★★★★★",
             price: "$1.29"
         }
