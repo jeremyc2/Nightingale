@@ -115,6 +115,9 @@ var spanishPop = {
     ]
 }
 var princeRoyceTopSongs = {
+    title: "Prince Royce Deluxe",
+    albumArt: "icons/images/princeroyce2.jpg",
+    label: "The Best of Prince Royce",
     songs: [
         {
             index: 1,

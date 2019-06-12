@@ -21,6 +21,14 @@ function loadSongs() {
 
     var album = getAlbumInformation();
 
+    var titleMain = document.getElementsByClassName("title")[0];
+    var albumArtMain = document.getElementById("album-art");
+    var songListLabelMain = document.getElementsByClassName("song-list-label")[0];
+
+    titleMain.appendChild(document.createTextNode(album.title));
+    albumArtMain.src = album.albumArt;
+    songListLabelMain.appendChild(document.createTextNode(album.label));
+
     var songDiv = document.getElementsByClassName("grid-container-album-details")[0];
 
     var i;
