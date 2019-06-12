@@ -53,6 +53,9 @@ function loadCarousel(index, playlist) {
 
         var songNode = document.createElement("div");
         songNode.className = "album-c";
+        songNode.onclick = function() {
+            location.href = 'album-details.html?album=' + playlist.songs[i].title;
+        }
         
         var albumImage = document.createElement("img");
         albumImage.src = playlist.songs[i].source;
