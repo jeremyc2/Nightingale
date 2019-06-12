@@ -27,7 +27,7 @@ function loadCarousel(index, playlist) {
     var carouselTitle = document.createElement("div");
     carouselTitle.className = "carousel-title";
 
-    if (index == 0) {
+    if (playlist.fromFriend == true) {
         // Create Friends Icon (img)
         var friendsIcon = document.createElement("img");
         friendsIcon.src = "icons/friends.png";
@@ -35,14 +35,14 @@ function loadCarousel(index, playlist) {
         friendsIcon.style.width = "45px;";
         carouselTitle.appendChild(friendsIcon);
 
-        var textNode = document.createTextNode("Check-out Justin Ramsey's New Playlist");
+        var textNode = document.createTextNode(playlist.title);
         carouselTitle.appendChild(textNode);
 
         songDiv.appendChild(carouselTitle);
 
     }
-    else if (index == 1) {
-        var textNode = document.createTextNode("Spanish Pop");
+    else {
+        var textNode = document.createTextNode(playlist.title);
         carouselTitle.appendChild(textNode);
 
         songDiv.appendChild(carouselTitle);

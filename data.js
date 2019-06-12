@@ -1,4 +1,12 @@
+/*********************************************
+ * 
+ *      Playlists
+ * 
+ *********************************************/
+
 var justinRamsey = {
+    title: "Check-out Justin Ramsey's New Playlist",
+    fromFriend: true,
     songs: [
         {
             index: 1,
@@ -57,6 +65,8 @@ var justinRamsey = {
     ]
 }
 var spanishPop = {
+    title: "Spanish Pop",
+    fromFriend: false,
     songs: [
         {
             index: 1,
@@ -114,6 +124,13 @@ var spanishPop = {
         }
     ]
 }
+
+/*********************************************
+ * 
+ *      Albums
+ * 
+ *********************************************/
+
 var princeRoyceTopSongs = {
     title: "Prince Royce Deluxe",
     albumArt: "icons/images/princeroyce2.jpg",
