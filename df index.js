@@ -1,77 +1,71 @@
-function loadSongs() {
-    var songDiv = document.getElementsByClassName("grid-container-album-details")[0];
+function loadCarousel(index, playlist) {
+    var songDiv = document.getElementsByClassName("shaddow-box-c")[index];
+
+    // Create Image Share Div
+    var imageShareDiv = document.createElement("div");
+    imageShareDiv.className = "image-share";
+
+    // Create Share Image (img) with event listeners
+    var shareImage = document.createElement("img");
+    shareImage.src = "icons/share/Share icon.svg";
+    shareImage.onmouseover = function(){
+        mouseover(this,'icons/share/Share icon hover.svg');
+    };
+    shareImage.onmouseout = function(){
+        mouseout(this,'icons/share/Share icon.svg');
+    };
+    shareImage.onclick = function(){
+        event.stopPropagation();
+        showModal();
+    };
+
+    // Append to Image Shre Div
+    imageShareDiv.appendChild(shareImage);
+    songDiv.appendChild(imageShareDiv);
+
+    // Create Carousel Title Div
+    var carouselTitle = document.createElement("div");
+    carouselTitle.className = "carousel-title";
+
+    // Create Friends Icon (img)
+    var friendsIcon = document.createElement("img");
+    friendsIcon.src = "icons/friends.png";
+    friendsIcon.style.height = "45px;";
+    friendsIcon.style.width = "45px;";
+    carouselTitle.appendChild(friendsIcon);
+
+    var textNode = document.createTextNode("Check-out Justin Ramsey's New Playlist");
+    carouselTitle.appendChild(textNode);
+
+    songDiv.appendChild(carouselTitle);
 
     var i;
-    for (i = 0; i < princeRoyceTopSongs.songs.length; i++) {
+    for (i = 0; i < playlist.songs.length; i++) {
 
         var songNode = document.createElement("div");
-        songNode.className = "song";
+        songNode.className = "album-c";
         
-        // Create the contents of song node
-        var indexNode = document.createElement("div");
-        var textNode = document.createTextNode(i + 1);
-        indexNode.appendChild(textNode);
+        var albumImage = document.createElement("img");
+        albumImage.src = playlist.songs[i].source;
+        songNode.appendChild(albumImage);
 
-        var titleNode = document.createElement("div");
-        textNode = document.createTextNode(princeRoyceTopSongs.songs[i].title);
-        titleNode.appendChild(textNode);
+        var title = document.createElement("div");
+        textNode = document.createTextNode(playlist.songs[i].title);
+        title.appendChild(textNode);
+        songNode.appendChild(title);
 
-        var artistNode = document.createElement("div");
-        textNode = document.createTextNode(princeRoyceTopSongs.songs[i].artist);
-        artistNode.appendChild(textNode);
+        var artist = document.createElement("div");
+        textNode = document.createTextNode(playlist.songs[i].artist);
+        artist.appendChild(textNode);
+        songNode.appendChild(artist);
 
-        var timeNode = document.createElement("div");
-        textNode = document.createTextNode(princeRoyceTopSongs.songs[i].time);
-        timeNode.appendChild(textNode);
+        var price = document.createElement("div");
+        textNode = document.createTextNode(playlist.songs[i].price);
+        price.appendChild(textNode);
+        songNode.appendChild(price);
 
-        var ratingNode = document.createElement("div");
-        textNode = document.createTextNode(princeRoyceTopSongs.songs[i].rating);
-        ratingNode.appendChild(textNode);
-
-        var priceNode = document.createElement("div");
-        textNode = document.createTextNode(princeRoyceTopSongs.songs[i].price);
-        priceNode.appendChild(textNode);        
-        
-        var cartNode = document.createElement("div");
-
-        // Create img to cart node
-        var imgNode = document.createElement("img");
-        
-        // Add class,src, and touch events to img
-        imgNode.className = "shopping-green";
-        imgNode.src = "icons/shopping-green/shopping-green.svg";
-        imgNode.onmouseover = function(){
-                                mouseover(this,'icons/' + this.className + '/' + this.className + ' hover.svg')
-                            };
-        imgNode.onmouseout= function(){
-                                mouseout(this,'icons/' + this.className + '/' + this.className + '.svg')
-                            };
-        imgNode.onmousedown= function(){
-                                mousedown(this,'icons/' + this.className + '/' + this.className + ' clicked.svg')
-                            };
-        imgNode.onmouseup= function(){
-                                if (this.className == 'shopping-green') 
-                                    this.className = 'shopping-orange'; 
-                                else 
-                                    this.className = 'shopping-green';
-                                mouseup(this, 'icons/' + this.className + '/' + this.className + '.svg',
-                                    'icons/' + this.className + '/' + this.className + ' hover.svg');
-                            };
-
-        // Append img to cart node
-        cartNode.appendChild(imgNode);
-
-        // Append children to songNode
-        songNode.appendChild(indexNode);
-        songNode.appendChild(titleNode);
-        songNode.appendChild(artistNode);
-        songNode.appendChild(timeNode);
-        songNode.appendChild(ratingNode);
-        songNode.appendChild(priceNode);
-        songNode.appendChild(cartNode);
-
-        // Append songNode to songDiv
         songDiv.appendChild(songNode);
+
     }
 
 }

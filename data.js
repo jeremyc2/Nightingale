@@ -96,7 +96,7 @@ var spanishPop = {
         },
         {
             index: 5,
-            source: "iicons/images/bacilos.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Mi Primer Millón",
             time: "3:33",
             artist: "Bacilos",
