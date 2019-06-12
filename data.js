@@ -221,7 +221,7 @@ var princeRoyceTopSongs = {
 }
 
 var colgandoEnTusManos = {
-    title: "Carlos Buate Deluxe",
+    title: "Colgando en tus Manos",
     albumArt: "icons/images/carlosbuate.jpg",
     label: "The Best of Carlos Buate",
     songs: [
@@ -310,88 +310,88 @@ var colgandoEnTusManos = {
 }
 
 var corazonProfundo = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Corazon Profundo",
+    albumArt: "icons/images/carlosvives.jpg",
+    label: "The Best of Carlos Vives",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carlosvives.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Carlos Vives",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -399,88 +399,88 @@ var corazonProfundo = {
 }
 
 var ILoveYouMoreThanTacos = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "I Love You More Than Tacos",
+    albumArt: "icons/images/carnecruda.jpg",
+    label: "The Best of Carne Cruda",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/carnecruda.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Carne Cruda",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -488,88 +488,88 @@ var ILoveYouMoreThanTacos = {
 }
 
 var filosofiaBachataYZapatosDeGoma = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Filosofia Bachata y Zapatos de Goma",
+    albumArt: "icons/images/charlygarcia.jpg",
+    label: "The Best of Charly Garcia",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/charlygarcia.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Charly Garcia",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -577,88 +577,88 @@ var filosofiaBachataYZapatosDeGoma = {
 }
 
 var enTodoEstare = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "En Todo Estare",
+    albumArt: "icons/images/chayanne.jpg",
+    label: "The Best of Chayanne",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chayanne.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Chayanne",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -666,88 +666,88 @@ var enTodoEstare = {
 }
 
 var miNinaBonita = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Mi Niña Bonita",
+    albumArt: "icons/images/chinoynacho.jpg",
+    label: "The Best of Chino Y Nacho",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/chinoynacho.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Chino Y Nacho",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -755,88 +755,88 @@ var miNinaBonita = {
 }
 
 var rompiendoFronteras = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Rompiendo Fronteras",
+    albumArt: "icons/images/Alejandrofernandez.jpg",
+    label: "The Best of Alejandro Fernandez",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/Alejandrofernandez.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Alejandro Fernandez",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -844,88 +844,88 @@ var rompiendoFronteras = {
 }
 
 var elTrenDeLosMomentos = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "El Tren de los Momentos",
+    albumArt: "icons/images/alejandrosanz.jpg",
+    label: "The Best of Alejandro Sanz",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/alejandrosanz.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Alejandro Sanz",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -933,88 +933,88 @@ var elTrenDeLosMomentos = {
 }
 
 var milCiudades = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Mil Ciudades",
+    albumArt: "icons/images/andrescepeda.jpg",
+    label: "The Best of Andres Cepeda",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/andrescepeda.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Andres Cepeda",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -1022,88 +1022,88 @@ var milCiudades = {
 }
 
 var tusOjosMisOjos = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Tus Ojos Mis Ojos",
+    albumArt: "icons/images/axel.jpg",
+    label: "The Best of Axel",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/axel.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Axel",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -1111,88 +1111,88 @@ var tusOjosMisOjos = {
 }
 
 var miPrimerMillon = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Mi Primer Millón",
+    albumArt: "icons/images/bacilos.jpg",
+    label: "The Best of Bacilos",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/bacilos.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Bacilos",
             rating: "★★★★★",
             price: "$1.29"
         }
@@ -1200,88 +1200,88 @@ var miPrimerMillon = {
 }
 
 var todoCambio = {
-    title: "Prince Royce Deluxe",
-    albumArt: "icons/images/princeroyce2.jpg",
-    label: "The Best of Prince Royce",
+    title: "Todo Cambió",
+    albumArt: "icons/images/camila.jpg",
+    label: "The Best of Camila",
     songs: [
         {
             index: 1,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"No Te Olvides",
             time: "3:51",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 2,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Culpa al Corazón",
             time: "3:21",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 3,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Dilema",
             time: "3:11",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 4,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"La Carretera",
             time: "3:29",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★",
             price: "$1.29"
         },
         {
             index: 5,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Ganas Locas (feat. Farruko)",
             time: "3:57",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 6,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Deja vu",
             time: "3:44",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 7,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Asalto",
             time: "3:53",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★★",
             price: "$1.29"
         },
         {
             index: 8,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Te Necesito",
             time: "3:37",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★",
             price: "$1.29"
         },
         {
             index: 9,
-            source: "icons/images/princeroyce2.jpg",
+            source: "icons/images/camila.jpg",
             title: 	"Amor Prohibido",
             time: "3:40",
-            artist: "Prince Royce",
+            artist: "Camila",
             rating: "★★★★★",
             price: "$1.29"
         }
