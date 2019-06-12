@@ -10,9 +10,38 @@ function getAlbumInformation() {
     var vars = getUrlVars();
     console.log(vars);
 
-    switch(vars.album) {
+    switch(vars.album.normalize('NFD').replace(/[\u0300-\u036f]/g, "")) {
         case "princeRoyceTopSongs":
-          return princeRoyceTopSongs;
+            return princeRoyceTopSongs;
+        case "Colgando en tus manos":
+            return colgandoEnTusManos;
+        case "Corazon Profundo":
+            return corazonProfundo;
+        case "I Love You More Than Tacos":
+            return ILoveYouMoreThanTacos;
+        case "Filosofia Bachata y Zapatos de Goma":
+            return filosofiaBachataYZapatosDeGoma;
+        case "En Todo Estare":
+            return enTodoEstare;
+        case "Mi Nina Bonita":
+            return miNinaBonita;
+        case "Rompiendo Fronteras":
+            return rompiendoFronteras;
+        case "El Tren de los Momentos":
+            return elTrenDeLosMomentos;
+        case "Mil Ciudades":
+            return milCiudades;
+        case "Tus Ojos Mis Ojos":
+            return tusOjosMisOjos;
+        case "Mi Primer Millon":
+            return miPrimerMillon;
+        case "Todo Cambio":
+            return todoCambio;
+        default:
+            alert("ERROR: ALBUM CANNOT BE FOUND!\
+            \nThis is the album: " + vars.album);
+
+
     }
 
 }
