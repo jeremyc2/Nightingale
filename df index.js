@@ -27,17 +27,26 @@ function loadCarousel(index, playlist) {
     var carouselTitle = document.createElement("div");
     carouselTitle.className = "carousel-title";
 
-    // Create Friends Icon (img)
-    var friendsIcon = document.createElement("img");
-    friendsIcon.src = "icons/friends.png";
-    friendsIcon.style.height = "45px;";
-    friendsIcon.style.width = "45px;";
-    carouselTitle.appendChild(friendsIcon);
+    if (index == 0) {
+        // Create Friends Icon (img)
+        var friendsIcon = document.createElement("img");
+        friendsIcon.src = "icons/friends.png";
+        friendsIcon.style.height = "45px;";
+        friendsIcon.style.width = "45px;";
+        carouselTitle.appendChild(friendsIcon);
 
-    var textNode = document.createTextNode("Check-out Justin Ramsey's New Playlist");
-    carouselTitle.appendChild(textNode);
+        var textNode = document.createTextNode("Check-out Justin Ramsey's New Playlist");
+        carouselTitle.appendChild(textNode);
 
-    songDiv.appendChild(carouselTitle);
+        songDiv.appendChild(carouselTitle);
+
+    }
+    else if (index == 1) {
+        var textNode = document.createTextNode("Spanish Pop");
+        carouselTitle.appendChild(textNode);
+
+        songDiv.appendChild(carouselTitle);
+    }
 
     var i;
     for (i = 0; i < playlist.songs.length; i++) {
