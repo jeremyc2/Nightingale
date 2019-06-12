@@ -15,7 +15,7 @@ var justinRamsey = {
             time: "3:20",
             artist: "Carlos Buate",
             rating: "★★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 2,
@@ -24,7 +24,7 @@ var justinRamsey = {
             time: "3:00",
             artist: "Carlos Vives",
             rating: "★★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 3,
@@ -33,7 +33,7 @@ var justinRamsey = {
             time: "3:45",
             artist: "Carne Cruda",
             rating: "★★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 4,
@@ -42,7 +42,7 @@ var justinRamsey = {
             time: "4:03",
             artist: "Charly Garcia",
             rating: "★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 5,
@@ -51,7 +51,7 @@ var justinRamsey = {
             time: "3:27",
             artist: "Chayanne",
             rating: "★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 6,
@@ -60,7 +60,7 @@ var justinRamsey = {
             time: "3:29",
             artist: "Chino Y Nacho",
             rating: "★★★★★",
-            price: "$1.29"
+            price: "$10.00"
         }
     ]
 }
@@ -75,7 +75,7 @@ var spanishPop = {
             time: "3:05",
             artist: "Alejandro Fernandez",
             rating: "★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 2,
@@ -84,7 +84,7 @@ var spanishPop = {
             time: "3:11",
             artist: "Alejandro Sanz",
             rating: "★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 3,
@@ -93,7 +93,7 @@ var spanishPop = {
             time: "3:17",
             artist: "Andres Cepeda",
             rating: "★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 4,
@@ -102,7 +102,7 @@ var spanishPop = {
             time: "3:59",
             artist: "Axel",
             rating: "★★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 5,
@@ -111,7 +111,7 @@ var spanishPop = {
             time: "3:33",
             artist: "Bacilos",
             rating: "★★★★★",
-            price: "$1.29"
+            price: "$10.00"
         },
         {
             index: 6,
@@ -120,7 +120,7 @@ var spanishPop = {
             time: "3:24",
             artist: "Camila",
             rating: "★★★★",
-            price: "$1.29"
+            price: "$10.00"
         }
     ]
 }
