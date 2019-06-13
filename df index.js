@@ -48,6 +48,9 @@ function loadCarousel(index, playlist) {
         songDiv.appendChild(carouselTitle);
     }
 
+    var albumStrip = document.createElement("div");
+    albumStrip.className = "album-strip";
+
     var i;
     for (i = 0; i < playlist.songs.length; i++) {
 
@@ -78,8 +81,10 @@ function loadCarousel(index, playlist) {
         priceNode.appendChild(textNode);
         songNode.appendChild(priceNode);
 
-        songDiv.appendChild(songNode);
+        albumStrip.appendChild(songNode);
 
     }
+
+    songDiv.appendChild(albumStrip);
 
 }

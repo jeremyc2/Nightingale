@@ -9,7 +9,7 @@
 
 .carousel1, .carousel2 {
     display: grid;
-    grid-template-columns: 10px [column-start] 1200px [column-start] 10px [column-start];
+    grid-template-columns: 1fr [column-start] 10px [column-start] 1fr [column-start] 10px [column-start] 1fr;
     justify-items: center;
     grid-gap: 10px;
 }
@@ -17,17 +17,20 @@
 .shaddow-box-c {
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr [column-start]);
-    grid-template-rows: 55px [row-start] 1fr [row-start];
-    grid-gap: 20px;
-    justify-items: center;
-    grid-auto-flow: row;
 
-    grid-column: 2 / span 1;
+    grid-template-rows: 55px [row-start] 1fr [row-start];
+
+    grid-column: 3 / span 1;
     grid-row: 1 / end;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-strip {
+    grid-gap: 20px;
+    justify-items: center;
+    grid-auto-flow: row;
 }
 
 .album-c > div {
@@ -55,9 +58,17 @@
     z-index: 100;
 }
 
+#back-carousel {
+    grid-column: column-start 1 / span 1;
+}
+
+#forward-carousel {
+    grid-column: column-start 3 / span 1;
+}
+
 .carousel-title {
     grid-row: 1 / span 1;
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
     overflow: hidden;
 }
 

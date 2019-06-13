@@ -21,7 +21,7 @@ body,html {
   border-right: 0;
   margin: 0;
   width: 100vw;
-  font-family: "Open Sans";
+  font-family: "Open Sans"!important;
 }
 
 .hsc { 
