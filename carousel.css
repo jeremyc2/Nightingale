@@ -30,7 +30,7 @@
 .album-strip {
     grid-gap: 20px;
     justify-items: center;
-    grid-auto-flow: row;
+    display: grid;
 }
 
 .album-c > div {
