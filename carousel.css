@@ -68,7 +68,7 @@
 
 .carousel-title {
     grid-row: 1 / span 1;
-    grid-column: 1 / -1
+    grid-column: 1 / -1;
     overflow: hidden;
 }
 
