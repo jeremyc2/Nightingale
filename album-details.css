@@ -15,6 +15,7 @@
 .grid-container-album-details > .back > img {
     float: left;
     width: 100px;
+    cursor: pointer;
 }
 
 .grid-container-album-details > .title {
