@@ -1,13 +1,21 @@
-function resizeCarousels() {
-    var numAlbums = (window.innerWidth - 300) / 200;
-    loadCarousel(0,justinRamsey, numAlbums);
-    loadCarousel(1,spanishPop, numAlbums);
+function resizeCarousels(offsetFirst, offsetSecond) {
+    var numAlbums = Math.floor((window.innerWidth - 300) / 200);
+
+    if (typeof offsetFirst == "undefined"){
+        offsetFirst = 0;
+    }
+    if (typeof offsetSecond == "undefined"){
+        offsetSecond = 0;
+    }
+
+    loadCarousel(0,justinRamsey, numAlbums, offsetFirst);
+    loadCarousel(1,spanishPop, numAlbums, offsetSecond);
 }
 
 
 window.onresize = resizeCarousels;
 
-function loadCarousel(index, playlist, maxSize) {
+function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
     var songDiv = document.getElementsByClassName("shaddow-box-c")[index];
 
     while (songDiv.firstChild) {
@@ -32,7 +40,7 @@ function loadCarousel(index, playlist, maxSize) {
         showModal();
     };
 
-    // Append to Image Shre Div
+    // Append to Image Share Div
     imageShareDiv.appendChild(shareImage);
     songDiv.appendChild(imageShareDiv);
 
@@ -64,19 +72,46 @@ function loadCarousel(index, playlist, maxSize) {
     var albumStrip = document.createElement("div");
     albumStrip.className = "album-strip";
 
-    var i;
-
     var size;
 
     if (typeof maxSize != "undefined" && playlist.songs.length > maxSize) {
+        // console.log("Size is equal to maxSize: " + maxSize)
         size = maxSize;
     } else {
+        // console.log("Size is equal to length: " + playlist.songs.length)
         size = playlist.songs.length;
     }
 
-    console.log("Carousel size: " + size)
+    // A B C D E
+    // size 4
+    // offset 1
+    // B C D E
 
-    for (i = 0; i < size; i++) {
+
+    if (playlist.leftOffset + deltaLeftOffset + size <= playlist.songs.length) {
+        playlist.leftOffset += deltaLeftOffset;
+        // console.log("adding to offset")
+    }
+
+    var i;
+
+    if (playlist.leftOffset < 0){
+        playlist.leftOffset = 0;
+        // console.log("Reset offset")
+    }
+
+    size += playlist.leftOffset;
+
+    // Reached the end of size. Fix it.
+    if (size > playlist.songs.length) {
+        var diff = size - playlist.songs.length;
+        size = playlist.songs.length;
+        playlist.leftOffset -= diff;
+    }
+
+    // console.log(" Size: " + size + " left offset: " + playlist.leftOffset);
+
+    for (i = playlist.leftOffset; i < size; i++) {
 
         var songNode = document.createElement("div");
         songNode.className = "album-c";

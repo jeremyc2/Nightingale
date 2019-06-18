@@ -5,6 +5,7 @@
  *********************************************/
 
 var justinRamsey = {
+    leftOffset: 0,
     title: "Check-out Justin Ramsey's New Playlist",
     fromFriend: true,
     songs: [
@@ -65,6 +66,7 @@ var justinRamsey = {
     ]
 }
 var spanishPop = {
+    leftOffset: 0,
     title: "Spanish Pop",
     fromFriend: false,
     songs: [
