@@ -119,6 +119,7 @@ function loadSongs() {
 
         // Append img to cart node
         cartNode.appendChild(imgNode);
+        cartNode.style = "cursor: pointer;";
 
         // Append children to songNode
         songNode.appendChild(indexNode);
