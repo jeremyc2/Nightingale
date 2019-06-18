@@ -77,6 +77,10 @@ a {
   grid-row: row-start 2 / row-start 3;
 }
 
+.image-share > img {
+  cursor: pointer;
+}
+
 .carousel1, .carousel2 {
     display: grid;
     grid-template-columns: repeat(8, 1fr [column-start]);

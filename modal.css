@@ -49,6 +49,7 @@
 
 .modal-send > img, .modal-cancel > img {
     height: 60px;
+    cursor: pointer;
 }
 
 .modal-cancel {
