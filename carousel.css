@@ -52,6 +52,7 @@
 .album-c, .arrow-c {
     grid-row: 2 / end;
     align-self: center;
+    cursor: pointer;
 }
 
 .arrow-c {
