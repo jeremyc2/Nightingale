@@ -74,7 +74,7 @@ function loadCarousel(index, playlist, maxSize) {
         size = playlist.songs.length;
     }
 
-    console.log("Size: " + size)
+    console.log("Carousel size: " + size)
 
     for (i = 0; i < size; i++) {
 
