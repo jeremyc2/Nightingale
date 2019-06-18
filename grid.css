@@ -14,6 +14,7 @@ header > div {
 header > div > img {
     height: 90px;
     width: 90px;
+    cursor: pointer;
 }
 
 body,html {
@@ -30,6 +31,8 @@ body,html {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   margin: 20px;
+
+  cursor: pointer;
   
   display: grid;
   grid-template-columns: 400px [column-start] 1fr [column-start] 80px [share-column];
