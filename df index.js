@@ -1,5 +1,18 @@
-function loadCarousel(index, playlist) {
+function resizeCarousels() {
+    var numAlbums = (window.innerWidth - 300) / 200;
+    loadCarousel(0,justinRamsey, numAlbums);
+    loadCarousel(1,spanishPop, numAlbums);
+}
+
+
+window.onresize = resizeCarousels;
+
+function loadCarousel(index, playlist, maxSize) {
     var songDiv = document.getElementsByClassName("shaddow-box-c")[index];
+
+    while (songDiv.firstChild) {
+        songDiv.removeChild(songDiv.firstChild);
+    }
 
     // Create Image Share Div
     var imageShareDiv = document.createElement("div");
@@ -52,7 +65,18 @@ function loadCarousel(index, playlist) {
     albumStrip.className = "album-strip";
 
     var i;
-    for (i = 0; i < playlist.songs.length; i++) {
+
+    var size;
+
+    if (typeof maxSize != "undefined" && playlist.songs.length > maxSize) {
+        size = maxSize;
+    } else {
+        size = playlist.songs.length;
+    }
+
+    console.log("Size: " + size)
+
+    for (i = 0; i < size; i++) {
 
         var songNode = document.createElement("div");
         songNode.className = "album-c";
