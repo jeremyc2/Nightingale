@@ -23,6 +23,7 @@
     grid-row: row-start 1 / span 1;
     text-align: left;
     font-size: 20px;
+    overflow: hidden;
   }
   
   .hsc > .title {
