@@ -161,23 +161,23 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
 
     // Show or hide the arrows
     if (index == 0){
-        if (rightArrowShow) {
+        if (leftArrowShow) {
             arrows[0].style = "visibility: visible;";
         } else {
             arrows[0].style = "visibility: hidden;";
         }
-        if (leftArrowShow) {
+        if (rightArrowShow) {
             arrows[1].style = "visibility: visible;";
         } else {
             arrows[1].style = "visibility: hidden;";
         }
     } else {
-        if (rightArrowShow) {
+        if (leftArrowShow) {
             arrows[2].style = "visibility: visible;";
         } else {
             arrows[2].style = "visibility: hidden;";
         }
-        if (leftArrowShow) {
+        if (rightArrowShow) {
             arrows[3].style = "visibility: visible;";
         } else {
             arrows[3].style = "visibility: hidden;";
