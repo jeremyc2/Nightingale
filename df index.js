@@ -16,6 +16,9 @@ function resizeCarousels(offsetFirst, offsetSecond) {
 window.onresize = resizeCarousels;
 
 function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
+
+    var arrows = document.getElementsByClassName("arrow-c");
+
     var songDiv = document.getElementsByClassName("shaddow-box-c")[index];
 
     while (songDiv.firstChild) {
@@ -97,7 +100,6 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
 
     if (playlist.leftOffset < 0){
         playlist.leftOffset = 0;
-        // console.log("Reset offset")
     }
 
     size += playlist.leftOffset;
@@ -111,7 +113,18 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
 
     // console.log(" Size: " + size + " left offset: " + playlist.leftOffset);
 
+    var rightArrowShow = true;
+    var leftArrowShow = true;
+
     for (i = playlist.leftOffset; i < size; i++) {
+
+        if(i == playlist.songs.length - 1) {
+            rightArrowShow = false;
+        }
+
+        if(i == 0) {
+            leftArrowShow = false;
+        }
 
         var songNode = document.createElement("div");
         songNode.className = "album-c";
@@ -145,5 +158,31 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
     }
 
     songDiv.appendChild(albumStrip);
+
+    // Show or hide the arrows
+    if (index == 0){
+        if (rightArrowShow) {
+            arrows[0].style = "visibility: visible;";
+        } else {
+            arrows[0].style = "visibility: hidden;";
+        }
+        if (leftArrowShow) {
+            arrows[1].style = "visibility: visible;";
+        } else {
+            arrows[1].style = "visibility: hidden;";
+        }
+    } else {
+        if (rightArrowShow) {
+            arrows[2].style = "visibility: visible;";
+        } else {
+            arrows[2].style = "visibility: hidden;";
+        }
+        if (leftArrowShow) {
+            arrows[3].style = "visibility: visible;";
+        } else {
+            arrows[3].style = "visibility: hidden;";
+        }
+    }
+
 
 }
