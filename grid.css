@@ -1,6 +1,13 @@
+/*
+    Colors (main - opposite)
+
+    rgb(120,167,242) - rgb(242,295,120)
+    
+*/
+
 header {
   font-size: 70px;
-  background-color: rgb(51,79,105);
+  background-color: rgb(120,167,242);
   color: rgb(242, 242, 242);
 }
 
