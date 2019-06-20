@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(242,242,242)!important;
+}
+
 .grid-container-album-details > div {
     text-align: center;
     font-size: 12px;
