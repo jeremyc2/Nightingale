@@ -69,13 +69,13 @@ body {
     grid-column: 1 / end;
 
     display: grid;
-    grid-template-columns: 1fr [index] 
-                           1fr [title] 
-                           1fr [artist]
-                           1fr [time] 
-                           1fr [rating]
-                           1fr [price]
-                           1fr [cart];
+    grid-template-columns: 50px [index] 
+                           100px [title] 
+                           100px [artist]
+                           100px [time] 
+                           100px [rating]
+                           100px [price]
+                           50px [cart];
     grid-template-rows: 1fr [row-start];
     grid-gap: 10px;
     grid-auto-flow: row;
