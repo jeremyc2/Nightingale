@@ -1,5 +1,5 @@
 function resizeCarousels(offsetFirst, offsetSecond) {
-    var numAlbums = Math.floor((window.innerWidth - 300) / 200);
+    var numAlbums = Math.floor((window.innerWidth - 200) / 200);
 
     if (typeof offsetFirst == "undefined"){
         offsetFirst = 0;
