@@ -29,12 +29,12 @@
 </header>
 <body onload="resizeCarousels();">
   <div class="grid-container-main">
-    <div class="hsc" onclick="location.href = 'album-details.html?album=princeRoyceTopSongs';">
+    <div class="hsc">
       <div class="image-share">
         <img src="icons/share/Share icon.svg" 
           onmouseover="mouseover(this,'icons/share/Share icon hover.svg')"
           onmouseout="mouseout(this,'icons/share/Share icon.svg')"
-          onclick="event.stopPropagation();showModal();" alt="">
+          onclick="showModal();" alt="">
       </div>
       <div class="title">
         Defining Bachata
@@ -82,8 +82,9 @@
       <div class="album-art">
         <img src="icons/images/princeroyce2.jpg" alt="">
       </div> 
-      <div class="wikipedia">
-        <img src="icons/wikipedia-source.png" onclick="event.stopPropagation(); location.href = 'https\:\/\/en.wikipedia.org/wiki/Prince_Royce';" alt="">
+      <div class="hscMoreInfo">
+        <div class="seeMore" onclick="location.href = 'album-details.html?album=princeRoyceTopSongs';">Explore Playlist</div>
+        <img src="icons/wikipedia-source.png" onclick="location.href = 'https\:\/\/en.wikipedia.org/wiki/Prince_Royce';" alt="">
       </div>
     </div> 
     <div class="carousel1">

@@ -37,8 +37,6 @@ body,html {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   margin: 20px;
-
-  cursor: pointer;
   
   display: grid;
   grid-template-columns: 400px [column-start] 1fr [column-start] 80px [share-column];
