@@ -11,6 +11,7 @@ header {
   font-size: 70px;
   background-color: rgb(120,167,242);
   color: rgb(100, 19, 13);
+  font-family: 'Asap', sans-serif;
 }
 
 header > div {
