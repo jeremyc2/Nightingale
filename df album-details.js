@@ -110,7 +110,7 @@ function loadSongs() {
                             };
         imgNode.onmouseup= function(){
                                 if (this.className == 'shopping-green') 
-                                    this.className = 'shopping-orange'; 
+                                    this.className = 'shopping-blue'; 
                                 else 
                                     this.className = 'shopping-green';
                                 mouseup(this, 'icons/' + this.className + '/' + this.className + '.svg',
