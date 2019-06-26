@@ -66,6 +66,13 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
 
     }
     else {
+
+        var popIcon = document.createElement("img");
+        popIcon.src = "icons/pop-mic.png";
+        popIcon.style.height = "45px;";
+        popIcon.style.width = "45px;";
+        carouselTitle.appendChild(popIcon);
+
         var textNode = document.createTextNode(playlist.title);
         carouselTitle.appendChild(textNode);
 
