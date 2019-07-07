@@ -6,20 +6,29 @@
 header {
   font-size: 70px;
   background-color: rgb(120,167,242);
-  color: rgb(100, 19, 13);
-  font-family: 'Asap', sans-serif;
+  color: rgb(181, 32, 22);
+  font-family: didot;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 25px;
 }
 
 header > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0px;
   padding: 10px;
+
+  background:
+  linear-gradient(to bottom, rgb(120,167,242) 0%, rgb(120,167,242) 90%, rgba(120,167,242,0) 95%, rgba(120,167,242,0) 100%),
+  linear-gradient(to right, rgb(235, 196, 131) 0%, rgb(235, 196, 131) 45%, rgb(172, 235, 155) 55%, rgb(172, 235, 155) 100%);
+  background-blend-mode: normal;
 }
 
 header > div > img {
     height: 90px;
-    width: 90px;
+    width: 65px;
     cursor: pointer;
 }
 

@@ -26,6 +26,7 @@ body {
     grid-column: 1 / end;
     grid-row: 1 / title;
     font-size: 30px;
+    color: rgb(181, 32, 22);
 }
 
 .grid-container-album-details > .album {
@@ -63,6 +64,7 @@ body {
     grid-column: 1 / end;
     grid-row: album / song-list-label;
     font-size: 20px;
+    color: rgb(181, 32, 22);
 } 
 
 .grid-container-album-details > .song {

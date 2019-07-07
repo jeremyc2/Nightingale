@@ -5,19 +5,6 @@
     justify-content: center;
   }
   
-  .hsc > .album-art {
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 3;
-    border-radius: 10px;
-    padding: 0;
-  }
-
-  .album-art > img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
-  
   .hsc > .hsc-text {
     grid-column: column-start 1 / span 2;
     grid-row: row-start 1 / span 1;
@@ -34,6 +21,7 @@
     font-size: 35px;
     padding: 30px!important;
     overflow: hidden;
+    color: rgb(181, 32, 22);
   }
 
   .hscMoreInfo {
