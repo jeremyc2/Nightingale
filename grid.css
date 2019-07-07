@@ -55,17 +55,19 @@ body,html {
   grid-template-columns: 1fr [column-start] 80px;
   grid-template-rows: 100px [row-start] 215px [row-start] 70px [row-start];
   grid-gap: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(99, 35, 35, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   background: 
     linear-gradient( to right,
-      rgba(255, 255, 255, 0.7) 0%, 
-      rgba(255, 255, 255, 0.7) 60%, 
+      rgba(255, 255, 255, 0.8) 0%, 
+      rgba(255, 255, 255, 0.8) 60%, 
       rgba(255, 255, 255, 0.5) 70%, 
       rgba(255, 255, 255, 0.5) 100%
     ),
     /* bottom, image */
-    url(icons/images/princeroyce2.jpg);
+
+    url(icons/images/princeroyce2.jpg) no-repeat,
+    url(icons/princeroyce2-repeatable2.jpg) repeat;
 }
 
 .grid-container-album-details {
