@@ -6,15 +6,16 @@
   }
   
   .hsc > .hsc-text {
-    grid-column: column-start 1 / span 2;
+    grid-column: column-start 1 / span 3;
     grid-row: row-start 1 / span 1;
+    min-width: 0;
     text-align: left;
     font-size: 20px;
     overflow: hidden;
   }
   
   .hsc > .title {
-    grid-column: column-start 1 / end;
+    grid-column: column-start 1 / span 3;
     grid-row: 1 / row-start 1;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -27,7 +28,7 @@
 
   .hscMoreInfo {
     display: inline-flex;
-    grid-column: column-start 1 / span 2;
+    grid-column: column-start 1 / span 3;
     grid-row: row-start 2 / span 1;
     border-radius: 10px;
   }
@@ -38,7 +39,7 @@
     font-size: 20px;
     padding: 5px;
     padding-top: 10px;
-    margin-right: 20px;
+    margin-right: 150px;
     border:1px solid transparent;
     cursor: pointer;
   }
