@@ -22,6 +22,7 @@
     padding: 30px!important;
     overflow: hidden;
     color: rgb(181, 32, 22);
+    background-color: transparent;
   }
 
   .hscMoreInfo {

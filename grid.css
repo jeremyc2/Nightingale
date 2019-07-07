@@ -38,6 +38,10 @@ body,html {
   margin: 0;
   width: 100vw;
   font-family: "Open Sans"!important;
+
+  min-width:700px;        /* Suppose you want minimum width of 1000px */
+  width: auto !important;  /* Firefox will set width as auto */
+  width:700px;            /* As IE6 ignores !important it will set width as 1000px; */
 }
 
 .hsc { 
@@ -48,10 +52,20 @@ body,html {
   margin: 20px;
   
   display: grid;
-  grid-template-columns: 400px [column-start] 1fr [column-start] 80px [share-column];
+  grid-template-columns: 1fr [column-start] 80px;
   grid-template-rows: 100px [row-start] 215px [row-start] 70px [row-start];
   grid-gap: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background: 
+    linear-gradient( to right,
+      rgba(255, 255, 255, 0.7) 0%, 
+      rgba(255, 255, 255, 0.7) 60%, 
+      rgba(255, 255, 255, 0.5) 70%, 
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    /* bottom, image */
+    url(icons/images/princeroyce2.jpg);
 }
 
 .grid-container-album-details {
