@@ -54,7 +54,7 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
     if (playlist.fromFriend == true) {
         // Create Friends Icon (img)
         var friendsIcon = document.createElement("img");
-        friendsIcon.src = "icons/friends.png";
+        friendsIcon.src = "icons/friends1.png";
         friendsIcon.setAttribute('height', '60px');
         friendsIcon.setAttribute('width', '60px');
         carouselTitle.appendChild(friendsIcon);
@@ -68,7 +68,7 @@ function loadCarousel(index, playlist, maxSize, deltaLeftOffset) {
     else {
 
         var popIcon = document.createElement("img");
-        popIcon.src = "icons/pop-mic.png";
+        popIcon.src = "icons/pop-mic1.png";
         popIcon.setAttribute('height', '60px');
         popIcon.setAttribute('width', '60px');
         carouselTitle.appendChild(popIcon);
