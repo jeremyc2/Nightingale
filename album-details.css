@@ -12,13 +12,13 @@ body {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     font-size: 30px;
-    padding-left: 15px;
-    padding-top: 50px;
+    padding-left: 2px;
+    padding-top: 2px;
 }
 
 .grid-container-album-details > .back > img {
     float: left;
-    width: 100px;
+    width: 70px;
     cursor: pointer;
 }
 
